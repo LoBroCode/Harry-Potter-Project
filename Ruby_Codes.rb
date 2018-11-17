@@ -34,6 +34,7 @@ attr_accessor :wand, :age, :house, :health, :strength, :intelligence, :name
   def Hogwarts
    if @age == 11 
    puts @name.to_s + " starts Hogwarts"
+   else 
   end
 end 
 
@@ -54,4 +55,6 @@ HarryPotter= HogwartStudents.new(15,13,"Gryffindor","Harry Potter")
 HermoineGranger= HogwartStudents.new(13,11,"Gryffindor","Hermoine Granger")
 DracoMalfoy= HogwartStudents.new(15,11,"Slytherin", "Draco Malfoy")
 
+
+HarryPotter.Learn
 end
